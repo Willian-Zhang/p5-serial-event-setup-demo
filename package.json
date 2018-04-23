@@ -1,0 +1,25 @@
+{
+  "name": "voice-of-doom",
+  "version": "1.0.0",
+  "description": "## How to run",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-doom/voice-of-doom.git"
+  },
+  "author": "Willian Zhang, Jeff, Stven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ai-doom/voice-of-doom/issues"
+  },
+  "homepage": "https://github.com/ai-doom/voice-of-doom#readme",
+  "dependencies": {
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "express-stream": "^0.8.0",
+    "watson-developer-cloud": "^3.3.0"
+  }
+}

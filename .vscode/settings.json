@@ -1,0 +1,6 @@
+{
+  "jshint.enable": false,
+  "jshint.options": {
+    "esversion": 6
+    }
+}
