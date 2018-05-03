@@ -1,0 +1,42 @@
+{
+  "name": "voice-of-doom",
+  "version": "1.0.0",
+  "description": "## How to run",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack --mode=development",
+    "dev": "webpack --mode=production && npm start",
+    "watch": "webpack --watch --mode=development",
+    "webpack": "webpack --mode=development && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-doom/voice-of-doom.git"
+  },
+  "author": "Willian Zhang, Jeff, Stven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ai-doom/voice-of-doom/issues"
+  },
+  "homepage": "https://github.com/ai-doom/voice-of-doom#readme",
+  "dependencies": {
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "howler": "^2.0.9",
+    "jquery": "^3.3.1",
+    "microm": "^0.2.4",
+    "p5": "^0.6.0",
+    "serialport": "^6.2.0",
+    "simple-statistics": "^5.4.0",
+    "sweetalert": "^2.1.0",
+    "watson-developer-cloud": "^3.3.0",
+    "watson-speech": "^0.34.1"
+  },
+  "devDependencies": {
+    "extract-loader": "^2.0.1",
+    "less-loader": "^4.1.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}

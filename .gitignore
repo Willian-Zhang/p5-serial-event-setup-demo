@@ -1,3 +1,14 @@
+# credentials
+credentials.json
+
+# js map file
+*.map
+
+# Mac
+.DS_Store
+
+.idea/
+
 # Logs
 logs
 *.log
@@ -57,3 +68,4 @@ typings/
 # dotenv environment variables file
 .env
 
+credentials.js

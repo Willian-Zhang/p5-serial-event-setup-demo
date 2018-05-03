@@ -1,5 +1,7 @@
-import './libraries/eventemitter2.js';
-export class Keybaord extends EventEmitter2{
+import EventEmitter2 from "eventemitter2"
+
+export 
+class Keybaord extends EventEmitter2{
     constructor(){
         super();
         document.addEventListener('keydown', (event) => {          

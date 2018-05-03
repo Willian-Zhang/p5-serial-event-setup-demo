@@ -14,9 +14,6 @@
  *  https://github.com/vanevery/p5.serialport
  *
  */
-import './p5.js';
-
-
 (function(root, factory) {
   if (typeof define === 'function' && define.amd)
     define('p5.serialport', ['p5'], function(p5) {
@@ -24,11 +21,8 @@ import './p5.js';
     });
   else if (typeof exports === 'object')
     factory(require('../p5'));
-  else if (root && root.hasOwnProperty('p5'))
+  else
     factory(root['p5']);
-  else{
-    factory(p5);
-  }
 }(this, function(p5) {
 
   // =============================================================================
@@ -87,7 +81,7 @@ import './p5.js';
 
     this.socket.onopen = function(event) {
       console.log('opened socket');
-      self.serialConnected = true;
+      serialConnected = true;
 
       if (typeof self.connectedCallback !== "undefined") {
         self.connectedCallback();
